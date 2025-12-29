@@ -1,0 +1,20 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file>icons/openidm.png</file>
+    </qresource>
+
+    <qresource prefix="/OpenIDM">
+        <file alias="qml/Main.qml">../qml/Main.qml</file>
+        <file alias="qml/views/DownloadsView.qml">../qml/views/DownloadsView.qml</file>
+        <file alias="qml/views/SettingsView.qml">../qml/views/SettingsView.qml</file>
+        <file alias="qml/views/AddDownloadDialog.qml">../qml/views/AddDownloadDialog.qml</file>
+        <file alias="qml/components/DownloadItemDelegate.qml">../qml/components/DownloadItemDelegate.qml</file>
+        <file alias="qml/components/ProgressBar.qml">../qml/components/ProgressBar.qml</file>
+        <file alias="qml/components/SpeedIndicator.qml">../qml/components/SpeedIndicator.qml</file>
+        <file alias="qml/components/ActionButton.qml">../qml/components/ActionButton.qml</file>
+        <file alias="qml/components/GlassPanel.qml">../qml/components/GlassPanel.qml</file>
+        <file alias="qml/theme/Theme.qml">../qml/theme/Theme.qml</file>
+        <file alias="qml/theme/qmldir">../qml/theme/qmldir</file>
+    </qresource>
+</RCC>

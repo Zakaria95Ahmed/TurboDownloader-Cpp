@@ -1,0 +1,64 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# IDE files
+.idea/
+.vscode/
+*.user
+*.autosave
+CMakeLists.txt.user*
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Qt generated
+*_autogen/
+*.qmlc
+*.jsc
+
+# Package files
+*.zip
+*.tar.gz
+*.deb
+*.rpm
+*.dmg
+*.msi
+
+# Database files
+*.db
+*.db-wal
+*.db-shm
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Test output
+Testing/
+CTestTestfile.cmake
+test-results/
+
+# Coverage
+*.gcov
+*.gcda
+*.gcno
+coverage/
